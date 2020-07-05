@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42056B8F24AFA7F20042067F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42056B8E24AFA7F20042067F /* AppDelegate.swift */; };
+		42056B9124AFA7F20042067F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42056B9024AFA7F20042067F /* SceneDelegate.swift */; };
+		42056B9324AFA7F20042067F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42056B9224AFA7F20042067F /* ViewController.swift */; };
+		42056B9624AFA7F20042067F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42056B9424AFA7F20042067F /* Main.storyboard */; };
+		42056B9924AFA7F20042067F /* FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42056B9724AFA7F20042067F /* FinalProject.xcdatamodeld */; };
+		42056B9B24AFA7FA0042067F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42056B9A24AFA7FA0042067F /* Assets.xcassets */; };
+		42056B9E24AFA7FA0042067F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42056B9C24AFA7FA0042067F /* LaunchScreen.storyboard */; };
+		4293CF2924B077A2003B7170 /* createViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF2824B077A2003B7170 /* createViewController.swift */; };
+		4293CF2B24B0B593003B7170 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF2A24B0B593003B7170 /* mainViewController.swift */; };
+		4293CF2F24B0BF97003B7170 /* saveMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF2E24B0BF97003B7170 /* saveMemoViewController.swift */; };
+		4293CF3124B0BFBB003B7170 /* memoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF3024B0BFBB003B7170 /* memoTableViewController.swift */; };
+		4293CF3324B0E068003B7170 /* memoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF3224B0E068003B7170 /* memoDetailViewController.swift */; };
+		4293CF3524B0F221003B7170 /* choiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF3424B0F221003B7170 /* choiceViewController.swift */; };
+		4293CF3724B0F42C003B7170 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF3624B0F42C003B7170 /* resultViewController.swift */; };
+		4293CF3924B0F5BD003B7170 /* informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF3824B0F5BD003B7170 /* informationViewController.swift */; };
+		4293CF6124B0F889003B7170 /* pen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF3C24B0F886003B7170 /* pen.jpg */; };
+		4293CF6224B0F889003B7170 /* chocolates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF3D24B0F886003B7170 /* chocolates.jpg */; };
+		4293CF6324B0F889003B7170 /* 20-30_woman_bag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF3E24B0F886003B7170 /* 20-30_woman_bag.jpg */; };
+		4293CF6424B0F889003B7170 /* 20-50_woman_wallet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF3F24B0F886003B7170 /* 20-50_woman_wallet.jpg */; };
+		4293CF6524B0F889003B7170 /* cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4024B0F886003B7170 /* cake.jpg */; };
+		4293CF6624B0F889003B7170 /* koreansweets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4124B0F886003B7170 /* koreansweets.jpg */; };
+		4293CF6724B0F889003B7170 /* 10_man_clothes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4224B0F886003B7170 /* 10_man_clothes.jpg */; };
+		4293CF6824B0F889003B7170 /* labtop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4324B0F886003B7170 /* labtop.jpg */; };
+		4293CF6924B0F889003B7170 /* 40-50_man_hat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4424B0F886003B7170 /* 40-50_man_hat.jpg */; };
+		4293CF6A24B0F889003B7170 /* fruitset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4524B0F887003B7170 /* fruitset.jpg */; };
+		4293CF6B24B0F889003B7170 /* man_wallet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4624B0F887003B7170 /* man_wallet.jpg */; };
+		4293CF6C24B0F889003B7170 /* redGinsengJelly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4724B0F887003B7170 /* redGinsengJelly.jpg */; };
+		4293CF6D24B0F889003B7170 /* ring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4824B0F887003B7170 /* ring.jpg */; };
+		4293CF6E24B0F889003B7170 /* redGinseng.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4924B0F887003B7170 /* redGinseng.jpg */; };
+		4293CF6F24B0F889003B7170 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4A24B0F887003B7170 /* flower.jpg */; };
+		4293CF7024B0F889003B7170 /* sirloin set.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4B24B0F887003B7170 /* sirloin set.jpg */; };
+		4293CF7124B0F889003B7170 /* perfume.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4C24B0F887003B7170 /* perfume.jpg */; };
+		4293CF7224B0F889003B7170 /* 10_woman_wallet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4D24B0F887003B7170 /* 10_woman_wallet.jpg */; };
+		4293CF7324B0F889003B7170 /* vitamin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4E24B0F887003B7170 /* vitamin.jpg */; };
+		4293CF7424B0F889003B7170 /* 20-30_man_bag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF4F24B0F887003B7170 /* 20-30_man_bag.jpg */; };
+		4293CF7524B0F889003B7170 /* 40-50_man_clothes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5024B0F887003B7170 /* 40-50_man_clothes.jpg */; };
+		4293CF7624B0F889003B7170 /* tie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5124B0F887003B7170 /* tie.jpg */; };
+		4293CF7724B0F889003B7170 /* trouble patch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5224B0F888003B7170 /* trouble patch.jpg */; };
+		4293CF7824B0F889003B7170 /* 10_woman_clothes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5324B0F888003B7170 /* 10_woman_clothes.jpg */; };
+		4293CF7924B0F889003B7170 /* sunglasses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5424B0F888003B7170 /* sunglasses.jpg */; };
+		4293CF7A24B0F889003B7170 /* 10_bag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5524B0F888003B7170 /* 10_bag.jpg */; };
+		4293CF7B24B0F889003B7170 /* cafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5624B0F888003B7170 /* cafe.jpg */; };
+		4293CF7C24B0F889003B7170 /* icecream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5724B0F888003B7170 /* icecream.jpg */; };
+		4293CF7D24B0F889003B7170 /* 40-50_woman_clothes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5824B0F888003B7170 /* 40-50_woman_clothes.jpg */; };
+		4293CF7E24B0F889003B7170 /* scarf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5924B0F888003B7170 /* scarf.jpg */; };
+		4293CF7F24B0F889003B7170 /* 10-30_outer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5A24B0F888003B7170 /* 10-30_outer.jpg */; };
+		4293CF8024B0F889003B7170 /* massager.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5B24B0F888003B7170 /* massager.jpg */; };
+		4293CF8124B0F889003B7170 /* cookies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5C24B0F888003B7170 /* cookies.jpg */; };
+		4293CF8224B0F889003B7170 /* shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5D24B0F888003B7170 /* shoes.jpg */; };
+		4293CF8324B0F889003B7170 /* 40-50_woman_hat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5E24B0F888003B7170 /* 40-50_woman_hat.jpg */; };
+		4293CF8424B0F889003B7170 /* doll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF5F24B0F888003B7170 /* doll.jpg */; };
+		4293CF8524B0F889003B7170 /* clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF6024B0F889003B7170 /* clock.jpg */; };
+		4293CF8824B11CFA003B7170 /* GiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF8724B11CFA003B7170 /* GiftData.swift */; };
+		4293CF8C24B11E35003B7170 /* giftCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CF8B24B11E35003B7170 /* giftCartTableViewController.swift */; };
+		4293CF9824B1A063003B7170 /* button_toLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF8D24B1A062003B7170 /* button_toLogin.png */; };
+		4293CF9924B1A063003B7170 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF8E24B1A062003B7170 /* images.png */; };
+		4293CF9A24B1A063003B7170 /* button_rechoose.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF8F24B1A062003B7170 /* button_rechoose.png */; };
+		4293CF9B24B1A063003B7170 /* button_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF9024B1A062003B7170 /* button_login.png */; };
+		4293CF9C24B1A063003B7170 /* button_purchase.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF9124B1A062003B7170 /* button_purchase.png */; };
+		4293CF9D24B1A063003B7170 /* loginview.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF9224B1A062003B7170 /* loginview.png */; };
+		4293CF9E24B1A063003B7170 /* button_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF9324B1A063003B7170 /* button_cart.png */; };
+		4293CF9F24B1A063003B7170 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF9424B1A063003B7170 /* main.png */; };
+		4293CFA024B1A063003B7170 /* button_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF9524B1A063003B7170 /* button_detail.png */; };
+		4293CFA124B1A063003B7170 /* button_showResult.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF9624B1A063003B7170 /* button_showResult.png */; };
+		4293CFA224B1A063003B7170 /* button_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CF9724B1A063003B7170 /* button_new.png */; };
+		4293CFA424B1EB69003B7170 /* appicon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4293CFA324B1EB69003B7170 /* appicon_120.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42056B8B24AFA7F20042067F /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42056B8E24AFA7F20042067F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42056B9024AFA7F20042067F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42056B9224AFA7F20042067F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42056B9524AFA7F20042067F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42056B9824AFA7F20042067F /* FinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalProject.xcdatamodel; sourceTree = "<group>"; };
+		42056B9A24AFA7FA0042067F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42056B9D24AFA7FA0042067F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42056B9F24AFA7FA0042067F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4293CF2824B077A2003B7170 /* createViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createViewController.swift; sourceTree = "<group>"; };
+		4293CF2A24B0B593003B7170 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		4293CF2E24B0BF97003B7170 /* saveMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveMemoViewController.swift; sourceTree = "<group>"; };
+		4293CF3024B0BFBB003B7170 /* memoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoTableViewController.swift; sourceTree = "<group>"; };
+		4293CF3224B0E068003B7170 /* memoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoDetailViewController.swift; sourceTree = "<group>"; };
+		4293CF3424B0F221003B7170 /* choiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceViewController.swift; sourceTree = "<group>"; };
+		4293CF3624B0F42C003B7170 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		4293CF3824B0F5BD003B7170 /* informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationViewController.swift; sourceTree = "<group>"; };
+		4293CF3C24B0F886003B7170 /* pen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pen.jpg; sourceTree = "<group>"; };
+		4293CF3D24B0F886003B7170 /* chocolates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chocolates.jpg; sourceTree = "<group>"; };
+		4293CF3E24B0F886003B7170 /* 20-30_woman_bag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20-30_woman_bag.jpg"; sourceTree = "<group>"; };
+		4293CF3F24B0F886003B7170 /* 20-50_woman_wallet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20-50_woman_wallet.jpg"; sourceTree = "<group>"; };
+		4293CF4024B0F886003B7170 /* cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cake.jpg; sourceTree = "<group>"; };
+		4293CF4124B0F886003B7170 /* koreansweets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koreansweets.jpg; sourceTree = "<group>"; };
+		4293CF4224B0F886003B7170 /* 10_man_clothes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10_man_clothes.jpg; sourceTree = "<group>"; };
+		4293CF4324B0F886003B7170 /* labtop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = labtop.jpg; sourceTree = "<group>"; };
+		4293CF4424B0F886003B7170 /* 40-50_man_hat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "40-50_man_hat.jpg"; sourceTree = "<group>"; };
+		4293CF4524B0F887003B7170 /* fruitset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruitset.jpg; sourceTree = "<group>"; };
+		4293CF4624B0F887003B7170 /* man_wallet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = man_wallet.jpg; sourceTree = "<group>"; };
+		4293CF4724B0F887003B7170 /* redGinsengJelly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redGinsengJelly.jpg; sourceTree = "<group>"; };
+		4293CF4824B0F887003B7170 /* ring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ring.jpg; sourceTree = "<group>"; };
+		4293CF4924B0F887003B7170 /* redGinseng.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redGinseng.jpg; sourceTree = "<group>"; };
+		4293CF4A24B0F887003B7170 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
+		4293CF4B24B0F887003B7170 /* sirloin set.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sirloin set.jpg"; sourceTree = "<group>"; };
+		4293CF4C24B0F887003B7170 /* perfume.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perfume.jpg; sourceTree = "<group>"; };
+		4293CF4D24B0F887003B7170 /* 10_woman_wallet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10_woman_wallet.jpg; sourceTree = "<group>"; };
+		4293CF4E24B0F887003B7170 /* vitamin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vitamin.jpg; sourceTree = "<group>"; };
+		4293CF4F24B0F887003B7170 /* 20-30_man_bag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20-30_man_bag.jpg"; sourceTree = "<group>"; };
+		4293CF5024B0F887003B7170 /* 40-50_man_clothes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "40-50_man_clothes.jpg"; sourceTree = "<group>"; };
+		4293CF5124B0F887003B7170 /* tie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tie.jpg; sourceTree = "<group>"; };
+		4293CF5224B0F888003B7170 /* trouble patch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "trouble patch.jpg"; sourceTree = "<group>"; };
+		4293CF5324B0F888003B7170 /* 10_woman_clothes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10_woman_clothes.jpg; sourceTree = "<group>"; };
+		4293CF5424B0F888003B7170 /* sunglasses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunglasses.jpg; sourceTree = "<group>"; };
+		4293CF5524B0F888003B7170 /* 10_bag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10_bag.jpg; sourceTree = "<group>"; };
+		4293CF5624B0F888003B7170 /* cafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafe.jpg; sourceTree = "<group>"; };
+		4293CF5724B0F888003B7170 /* icecream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icecream.jpg; sourceTree = "<group>"; };
+		4293CF5824B0F888003B7170 /* 40-50_woman_clothes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "40-50_woman_clothes.jpg"; sourceTree = "<group>"; };
+		4293CF5924B0F888003B7170 /* scarf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scarf.jpg; sourceTree = "<group>"; };
+		4293CF5A24B0F888003B7170 /* 10-30_outer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10-30_outer.jpg"; sourceTree = "<group>"; };
+		4293CF5B24B0F888003B7170 /* massager.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = massager.jpg; sourceTree = "<group>"; };
+		4293CF5C24B0F888003B7170 /* cookies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cookies.jpg; sourceTree = "<group>"; };
+		4293CF5D24B0F888003B7170 /* shoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoes.jpg; sourceTree = "<group>"; };
+		4293CF5E24B0F888003B7170 /* 40-50_woman_hat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "40-50_woman_hat.jpg"; sourceTree = "<group>"; };
+		4293CF5F24B0F888003B7170 /* doll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doll.jpg; sourceTree = "<group>"; };
+		4293CF6024B0F889003B7170 /* clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clock.jpg; sourceTree = "<group>"; };
+		4293CF8724B11CFA003B7170 /* GiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftData.swift; sourceTree = "<group>"; };
+		4293CF8B24B11E35003B7170 /* giftCartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftCartTableViewController.swift; sourceTree = "<group>"; };
+		4293CF8D24B1A062003B7170 /* button_toLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_toLogin.png; sourceTree = "<group>"; };
+		4293CF8E24B1A062003B7170 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		4293CF8F24B1A062003B7170 /* button_rechoose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_rechoose.png; sourceTree = "<group>"; };
+		4293CF9024B1A062003B7170 /* button_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_login.png; sourceTree = "<group>"; };
+		4293CF9124B1A062003B7170 /* button_purchase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_purchase.png; sourceTree = "<group>"; };
+		4293CF9224B1A062003B7170 /* loginview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginview.png; sourceTree = "<group>"; };
+		4293CF9324B1A063003B7170 /* button_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_cart.png; sourceTree = "<group>"; };
+		4293CF9424B1A063003B7170 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		4293CF9524B1A063003B7170 /* button_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_detail.png; sourceTree = "<group>"; };
+		4293CF9624B1A063003B7170 /* button_showResult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_showResult.png; sourceTree = "<group>"; };
+		4293CF9724B1A063003B7170 /* button_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_new.png; sourceTree = "<group>"; };
+		4293CFA324B1EB69003B7170 /* appicon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_120.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42056B8824AFA7F20042067F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42056B8224AFA7F20042067F = {
+			isa = PBXGroup;
+			children = (
+				42056B8D24AFA7F20042067F /* FinalProject */,
+				42056B8C24AFA7F20042067F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42056B8C24AFA7F20042067F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42056B8B24AFA7F20042067F /* FinalProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42056B8D24AFA7F20042067F /* FinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				4293CF8624B0F8AD003B7170 /* giftImages */,
+				42056B8E24AFA7F20042067F /* AppDelegate.swift */,
+				42056B9024AFA7F20042067F /* SceneDelegate.swift */,
+				42056B9224AFA7F20042067F /* ViewController.swift */,
+				4293CF2824B077A2003B7170 /* createViewController.swift */,
+				4293CF2A24B0B593003B7170 /* mainViewController.swift */,
+				4293CF3024B0BFBB003B7170 /* memoTableViewController.swift */,
+				4293CF2E24B0BF97003B7170 /* saveMemoViewController.swift */,
+				4293CF3224B0E068003B7170 /* memoDetailViewController.swift */,
+				4293CF3424B0F221003B7170 /* choiceViewController.swift */,
+				4293CF3624B0F42C003B7170 /* resultViewController.swift */,
+				4293CF3824B0F5BD003B7170 /* informationViewController.swift */,
+				4293CF8724B11CFA003B7170 /* GiftData.swift */,
+				4293CF8B24B11E35003B7170 /* giftCartTableViewController.swift */,
+				42056B9424AFA7F20042067F /* Main.storyboard */,
+				42056B9A24AFA7FA0042067F /* Assets.xcassets */,
+				42056B9C24AFA7FA0042067F /* LaunchScreen.storyboard */,
+				42056B9F24AFA7FA0042067F /* Info.plist */,
+				42056B9724AFA7F20042067F /* FinalProject.xcdatamodeld */,
+			);
+			path = FinalProject;
+			sourceTree = "<group>";
+		};
+		4293CF8624B0F8AD003B7170 /* giftImages */ = {
+			isa = PBXGroup;
+			children = (
+				4293CFA324B1EB69003B7170 /* appicon_120.png */,
+				4293CF9324B1A063003B7170 /* button_cart.png */,
+				4293CF9524B1A063003B7170 /* button_detail.png */,
+				4293CF9024B1A062003B7170 /* button_login.png */,
+				4293CF9724B1A063003B7170 /* button_new.png */,
+				4293CF9124B1A062003B7170 /* button_purchase.png */,
+				4293CF8F24B1A062003B7170 /* button_rechoose.png */,
+				4293CF9624B1A063003B7170 /* button_showResult.png */,
+				4293CF8D24B1A062003B7170 /* button_toLogin.png */,
+				4293CF8E24B1A062003B7170 /* images.png */,
+				4293CF9224B1A062003B7170 /* loginview.png */,
+				4293CF9424B1A063003B7170 /* main.png */,
+				4293CF5524B0F888003B7170 /* 10_bag.jpg */,
+				4293CF4224B0F886003B7170 /* 10_man_clothes.jpg */,
+				4293CF5324B0F888003B7170 /* 10_woman_clothes.jpg */,
+				4293CF4D24B0F887003B7170 /* 10_woman_wallet.jpg */,
+				4293CF5A24B0F888003B7170 /* 10-30_outer.jpg */,
+				4293CF4F24B0F887003B7170 /* 20-30_man_bag.jpg */,
+				4293CF3E24B0F886003B7170 /* 20-30_woman_bag.jpg */,
+				4293CF3F24B0F886003B7170 /* 20-50_woman_wallet.jpg */,
+				4293CF5024B0F887003B7170 /* 40-50_man_clothes.jpg */,
+				4293CF4424B0F886003B7170 /* 40-50_man_hat.jpg */,
+				4293CF5824B0F888003B7170 /* 40-50_woman_clothes.jpg */,
+				4293CF5E24B0F888003B7170 /* 40-50_woman_hat.jpg */,
+				4293CF5624B0F888003B7170 /* cafe.jpg */,
+				4293CF4024B0F886003B7170 /* cake.jpg */,
+				4293CF3D24B0F886003B7170 /* chocolates.jpg */,
+				4293CF6024B0F889003B7170 /* clock.jpg */,
+				4293CF5C24B0F888003B7170 /* cookies.jpg */,
+				4293CF5F24B0F888003B7170 /* doll.jpg */,
+				4293CF4A24B0F887003B7170 /* flower.jpg */,
+				4293CF4524B0F887003B7170 /* fruitset.jpg */,
+				4293CF5724B0F888003B7170 /* icecream.jpg */,
+				4293CF4124B0F886003B7170 /* koreansweets.jpg */,
+				4293CF4324B0F886003B7170 /* labtop.jpg */,
+				4293CF4624B0F887003B7170 /* man_wallet.jpg */,
+				4293CF5B24B0F888003B7170 /* massager.jpg */,
+				4293CF3C24B0F886003B7170 /* pen.jpg */,
+				4293CF4C24B0F887003B7170 /* perfume.jpg */,
+				4293CF4924B0F887003B7170 /* redGinseng.jpg */,
+				4293CF4724B0F887003B7170 /* redGinsengJelly.jpg */,
+				4293CF4824B0F887003B7170 /* ring.jpg */,
+				4293CF5924B0F888003B7170 /* scarf.jpg */,
+				4293CF5D24B0F888003B7170 /* shoes.jpg */,
+				4293CF4B24B0F887003B7170 /* sirloin set.jpg */,
+				4293CF5424B0F888003B7170 /* sunglasses.jpg */,
+				4293CF5124B0F887003B7170 /* tie.jpg */,
+				4293CF5224B0F888003B7170 /* trouble patch.jpg */,
+				4293CF4E24B0F887003B7170 /* vitamin.jpg */,
+			);
+			path = giftImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42056B8A24AFA7F20042067F /* FinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42056BA224AFA7FA0042067F /* Build configuration list for PBXNativeTarget "FinalProject" */;
+			buildPhases = (
+				42056B8724AFA7F20042067F /* Sources */,
+				42056B8824AFA7F20042067F /* Frameworks */,
+				42056B8924AFA7F20042067F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalProject;
+			productName = FinalProject;
+			productReference = 42056B8B24AFA7F20042067F /* FinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42056B8324AFA7F20042067F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "DigitalMedia-2017";
+				TargetAttributes = {
+					42056B8A24AFA7F20042067F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 42056B8624AFA7F20042067F /* Build configuration list for PBXProject "FinalProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42056B8224AFA7F20042067F;
+			productRefGroup = 42056B8C24AFA7F20042067F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42056B8A24AFA7F20042067F /* FinalProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42056B8924AFA7F20042067F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4293CF7C24B0F889003B7170 /* icecream.jpg in Resources */,
+				4293CF9824B1A063003B7170 /* button_toLogin.png in Resources */,
+				4293CF6724B0F889003B7170 /* 10_man_clothes.jpg in Resources */,
+				4293CFA224B1A063003B7170 /* button_new.png in Resources */,
+				42056B9E24AFA7FA0042067F /* LaunchScreen.storyboard in Resources */,
+				4293CF6824B0F889003B7170 /* labtop.jpg in Resources */,
+				4293CF6124B0F889003B7170 /* pen.jpg in Resources */,
+				4293CF7A24B0F889003B7170 /* 10_bag.jpg in Resources */,
+				4293CF6A24B0F889003B7170 /* fruitset.jpg in Resources */,
+				4293CF7824B0F889003B7170 /* 10_woman_clothes.jpg in Resources */,
+				4293CF6424B0F889003B7170 /* 20-50_woman_wallet.jpg in Resources */,
+				4293CF6924B0F889003B7170 /* 40-50_man_hat.jpg in Resources */,
+				4293CFA124B1A063003B7170 /* button_showResult.png in Resources */,
+				4293CF7E24B0F889003B7170 /* scarf.jpg in Resources */,
+				4293CF6D24B0F889003B7170 /* ring.jpg in Resources */,
+				4293CF9A24B1A063003B7170 /* button_rechoose.png in Resources */,
+				4293CF7924B0F889003B7170 /* sunglasses.jpg in Resources */,
+				4293CF8424B0F889003B7170 /* doll.jpg in Resources */,
+				4293CF7024B0F889003B7170 /* sirloin set.jpg in Resources */,
+				4293CF8224B0F889003B7170 /* shoes.jpg in Resources */,
+				4293CF9D24B1A063003B7170 /* loginview.png in Resources */,
+				4293CFA024B1A063003B7170 /* button_detail.png in Resources */,
+				4293CF6F24B0F889003B7170 /* flower.jpg in Resources */,
+				4293CF9B24B1A063003B7170 /* button_login.png in Resources */,
+				4293CF7F24B0F889003B7170 /* 10-30_outer.jpg in Resources */,
+				4293CF7D24B0F889003B7170 /* 40-50_woman_clothes.jpg in Resources */,
+				4293CF8024B0F889003B7170 /* massager.jpg in Resources */,
+				4293CF6524B0F889003B7170 /* cake.jpg in Resources */,
+				4293CF7624B0F889003B7170 /* tie.jpg in Resources */,
+				4293CF6224B0F889003B7170 /* chocolates.jpg in Resources */,
+				4293CF7B24B0F889003B7170 /* cafe.jpg in Resources */,
+				42056B9B24AFA7FA0042067F /* Assets.xcassets in Resources */,
+				4293CF8124B0F889003B7170 /* cookies.jpg in Resources */,
+				4293CF6C24B0F889003B7170 /* redGinsengJelly.jpg in Resources */,
+				4293CF6624B0F889003B7170 /* koreansweets.jpg in Resources */,
+				4293CF9F24B1A063003B7170 /* main.png in Resources */,
+				4293CF6324B0F889003B7170 /* 20-30_woman_bag.jpg in Resources */,
+				4293CF7324B0F889003B7170 /* vitamin.jpg in Resources */,
+				4293CF8324B0F889003B7170 /* 40-50_woman_hat.jpg in Resources */,
+				42056B9624AFA7F20042067F /* Main.storyboard in Resources */,
+				4293CF7724B0F889003B7170 /* trouble patch.jpg in Resources */,
+				4293CF6B24B0F889003B7170 /* man_wallet.jpg in Resources */,
+				4293CF7224B0F889003B7170 /* 10_woman_wallet.jpg in Resources */,
+				4293CF9C24B1A063003B7170 /* button_purchase.png in Resources */,
+				4293CF7124B0F889003B7170 /* perfume.jpg in Resources */,
+				4293CF9E24B1A063003B7170 /* button_cart.png in Resources */,
+				4293CF8524B0F889003B7170 /* clock.jpg in Resources */,
+				4293CF7424B0F889003B7170 /* 20-30_man_bag.jpg in Resources */,
+				4293CF9924B1A063003B7170 /* images.png in Resources */,
+				4293CF7524B0F889003B7170 /* 40-50_man_clothes.jpg in Resources */,
+				4293CFA424B1EB69003B7170 /* appicon_120.png in Resources */,
+				4293CF6E24B0F889003B7170 /* redGinseng.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42056B8724AFA7F20042067F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4293CF8824B11CFA003B7170 /* GiftData.swift in Sources */,
+				4293CF3324B0E068003B7170 /* memoDetailViewController.swift in Sources */,
+				42056B9324AFA7F20042067F /* ViewController.swift in Sources */,
+				4293CF2924B077A2003B7170 /* createViewController.swift in Sources */,
+				4293CF3524B0F221003B7170 /* choiceViewController.swift in Sources */,
+				42056B8F24AFA7F20042067F /* AppDelegate.swift in Sources */,
+				4293CF2F24B0BF97003B7170 /* saveMemoViewController.swift in Sources */,
+				42056B9924AFA7F20042067F /* FinalProject.xcdatamodeld in Sources */,
+				4293CF3124B0BFBB003B7170 /* memoTableViewController.swift in Sources */,
+				4293CF8C24B11E35003B7170 /* giftCartTableViewController.swift in Sources */,
+				4293CF3724B0F42C003B7170 /* resultViewController.swift in Sources */,
+				42056B9124AFA7F20042067F /* SceneDelegate.swift in Sources */,
+				4293CF2B24B0B593003B7170 /* mainViewController.swift in Sources */,
+				4293CF3924B0F5BD003B7170 /* informationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42056B9424AFA7F20042067F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42056B9524AFA7F20042067F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42056B9C24AFA7FA0042067F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42056B9D24AFA7FA0042067F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42056BA024AFA7FA0042067F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42056BA124AFA7FA0042067F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42056BA324AFA7FA0042067F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.FinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42056BA424AFA7FA0042067F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.FinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42056B8624AFA7F20042067F /* Build configuration list for PBXProject "FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42056BA024AFA7FA0042067F /* Debug */,
+				42056BA124AFA7FA0042067F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42056BA224AFA7FA0042067F /* Build configuration list for PBXNativeTarget "FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42056BA324AFA7FA0042067F /* Debug */,
+				42056BA424AFA7FA0042067F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42056B9724AFA7F20042067F /* FinalProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42056B9824AFA7F20042067F /* FinalProject.xcdatamodel */,
+			);
+			currentVersion = 42056B9824AFA7F20042067F /* FinalProject.xcdatamodel */;
+			path = FinalProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42056B8324AFA7F20042067F /* Project object */;
+}
